@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Library</title>
+</head>
+<body>
+<div class='wrap'>
+    <div class='topnavbar'>
+        <h1>Library</h1>
+        <button class='login'>Log In</button>
+    </div>
+
+    <div class='addbook'>
+        <button class='add'>Add book</button>
+    </div>
+
+    <div class='container'>
+        <div class='book'>
+            <h2>Title</h2>
+            <h2>Author</h2>
+            <h2>Pages</h2>
+            <div class='book-btn-container'>
+                <div class='toggle'>
+                <button class='book-btn read' value='Read'>Read</button>
+                <button class='book-btn notread' value='Not Read'>Not Read</button>
+                </div>
+                <button class='book-btn remove'>Remove</button>
+            </div>
+        </div>
+
+        <div class='book'>
+            <h2>Title</h2>
+            <h2>Author</h2>
+            <h2>Pages</h2>
+            <div class='book-btn-container'>
+                <div class='toggle'>
+                <button class='book-btn read'>Read</button>
+                <button class='book-btn notread'>Not Read</button>
+                </div>
+                <button class='book-btn remove'>Remove</button>
+            </div>
+        </div>
+
+        <div class='book'>
+            <h2>Title</h2>
+            <h2>Author</h2>
+            <h2>Pages</h2>
+            <div class='book-btn-container'>
+                <div class='toggle'>
+                <button class='book-btn read'>Read</button>
+                <button class='book-btn notread'>Not Read</button>
+                </div>
+                <button class='book-btn remove'>Remove</button>
+            </div>
+        </div>
+    </div>
+</div>    
+
+    <div class='modal'>
+        <h2>Add new book<i class="close fas fa-times"></i></h2> 
+        <input class='title input' type='text' placeholder='Title'>
+        <input class='author input' type='text' placeholder='Author'>
+        <input class='pages input' type='text' placeholder='Pages'>
+        <span>Have you read it? <input type='checkbox' class='readornot'></span>
+        <button class='submit book-btn'>Submit</button>
+
+    </div>
+    <script src='app.js'></script>
+</body>
+</html>
