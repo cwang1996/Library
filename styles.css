@@ -99,6 +99,8 @@ body {
 }
 
 .toggle {
+    margin: 0 auto;
+    width: 300px;
     height: 140px;
 }
 
